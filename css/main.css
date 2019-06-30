@@ -1,0 +1,70 @@
+#header {
+  position: fixed;
+    height: 50px;
+    display: flex-end;
+    width: 100%;
+    background: #333;
+    z-index: 9;
+    text-align: right;
+    
+    padding: 20px 0 0 0;
+    
+}
+.nav-link {
+  justify-content: space-around;
+  margin: 40px;
+  text-decoration: none;
+  color: white;
+  margin: 40px;
+  padding: 0px 0 0 10px;
+}
+.nav-links {
+  display: flex;
+  font-size: 24px;
+  list-style: none;
+  text-align: right;
+  justify-content: flex-end;
+
+}
+
+
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 4rem;
+  color: white;
+}
+
+.s1 {
+  background: url("/assets/HomePhoto.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.s1 h3 {
+  text-align: center;
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 20px
+}
+
+.s2 {
+  background-color: #212128;
+  background-size: cover;
+}
+.s2 h1 {
+  r
+}
+
+.s3 {
+  background-color: #545457;
+  background-size: cover;
+}
+span {
+  background: white !important;
+  font-family: 'Montserrat';
+}
+
+
+
+/*# sourceMappingURL=main.css.map */

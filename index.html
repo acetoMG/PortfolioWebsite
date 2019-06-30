@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matthew Gagnon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css">
+    <link rel="stylesheet" href='/css/main.css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script type="text/javascript" src="fullpage.js"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#section1">Home</a></li>
+                <li><a class="nav-link" href="#section2">Contact</a></li>
+                <li><a class="nav-link" class="lastSection" href="#section3">Projects</a></li>
+            </ul>
+        </nav>  
+
+
+    </div>
+    
+    <div id="fullpage">
+        <div class="section s1">
+            <h1>Matthew Gagnon</h1>
+            <h3>Computer Science, BU '21</h3>
+        </div>
+        <div class="section s2">
+            <h1>Contact me</h1></div>
+        <div class="section s3">
+            <h1>Projects</h1></div>
+        </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js"></script>
+
+    <script>
+        new fullpage('#fullpage', {
+	
+	        autoScrolling:true,
+	        scrollHorizontally: true,
+            navigation: true,
+            anchors: ['section1', 'section2', 'section3'],
+            navigationTooltips: ['Home', 'Contact', 'Projects']
+        });
+
+    </script>
+
+</body>
+
+
+
+</html>
